@@ -1,0 +1,112 @@
+* Değişkenleri veri depolamak için kullanılan kaplar gibi düşünebiliriz. 
+* Bir değişken kısa bir isme (x ve y gibi) veya daha açıklayıcı bir isme (age, carName, total...) sahip olabilir. 
+
+* PHP Değişkenleri İçin Kurallar 
+- Bir değişken $ işareti ile başlar ardından değişkenin adı yazılır. 
+- Bir değişken ismi bir harf veya alt çizgi karakteriyle başlamalıdır. 
+- Bir değişken isimi bir rakamla başlayamaz. 
+- Bir değişken ismi yalnızca alfa sayısal karakterler ve alt çizgiler içerebilir. (A-z), 0-9 ve _)
+- Değişken isimleri büyük/küçük harf duyarlıdır.($age ve $AGE iki farklı değişkendir.)
+- Değişken isimleri Türkçe karakter kullanılarak yazılmaz. 
+- PHP değişken adlarının büyük/ küçük harf duyarlı olduğu unutulmamalıdır. 
+
+
+
+* "PHP tür konusunda gevşek bir dildir."
+
+PHP’de değişkenin türünü (string, integer, float, boolean vs.) önceden belirtmene gerek yoktur.
+
+Örneğin:
+
+$x = 5;        // integer
+$y = "Merhaba"; // string
+$z = 3.14;      // float
+
+
+PHP otomatik olarak değişkenin değerine göre türünü algılar.
+
+* "PHP değişkenin hangi veri türünde olduğunu söylemek zorunda olmadığımızı unutmayın."
+
+Yani int $x = 5; gibi tür belirtmen gerekmez (Java, C++ gibi dillerde gerekirdi).
+
+Sadece $x = 5; demen yeterlidir.
+
+* "PHP, değerine bağlı olarak değişkeni otomatik olarak doğru veri türüne dönüştürür."
+
+Örneğin:
+
+$a = "10";  // string
+$b = 5;     // integer
+echo $a + $b; // otomatik olarak integer toplama yapar → 15
+
+
+Yani "10" (string) değerini, ihtiyaç duyulduğunda otomatik integer’a çevirir.
+
+"C, C++, C#, Java gibi dillerde programcının kullanmadan önce değişkenin adını ve türünü bildirmesi gerekir."
+
+Örneğin C++’ta:
+
+int x = 5;
+string y = "Merhaba";
+
+
+PHP’de bu zorunluluk yoktur, bu yüzden daha kolaydır.
+
+* "PHP'de değişkenler kodda herhangi bir yerde bildirilebilir."
+
+Yani değişkenleri kodun istediğin kısmında tanımlayabilirsin.
+
+* "PHP'nin üç farklı değişken kapsamı vardır:"
+
+Yerel (local): Sadece fonksiyonun içinde tanımlanır ve orada kullanılabilir.
+
+function test() {
+  $x = 10;  // local değişken
+  echo $x;
+}
+
+
+Global: Fonksiyon dışında tanımlanan ve tüm kodda kullanılabilen değişkenler.
+
+$y = 20; // global değişken
+function deneme() {
+  global $y; 
+  echo $y; // global değişkeni çağırabilir
+}
+
+
+Statik: Fonksiyon bitse bile değerini saklayan değişkenler.
+
+function sayaç() {
+  static $i = 0;
+  $i++;
+  echo $i;
+}
+sayaç(); // 1
+sayaç(); // 2
+sayaç(); // 3
+
+
+* "Farklı fonksiyonlarda aynı ada sahip local değişkenlere sahip olabilirsiniz."
+
+Çünkü local değişkenler sadece tanımlandıkları fonksiyon içinde geçerlidir.
+
+function a() {
+  $x = 5;
+  echo $x;
+}
+function b() {
+  $x = 10;
+  echo $x;
+}
+a(); // 5
+b(); // 10
+
+
+* Yani kısaca PHP’de değişkenler esnek, dinamik ve tür bağımsızdır.
+
+*Global anahtar kelimesi, bir fonksiyon içindeki değişkene erişmek için kullanılır. Bunu yapmak için değişkenlerden önce global anahtar sözcüğü kullanın (fonksiyonun içinde).
+
+*PHP ayrıca tüm global değişkenleri $GLOBALS[index] adlı bir dizide saklar. Index değişkenin adını tutar. Bu diziye ayrıca fonksiyonların içinden de erişilebilir ve global değişkenleri doğrudan güncellemek için kullanılabilir.
+
+*Normal olarak, bir fonksiyon tamamlandığında tüm değişkenleri silinir. Ancak, bazen yerel bir değişkenin silinmemesini isteyebiliyoruz. Daha ileride yapacağımız bir işlem için buna ihtiyacımız olabilir. Bunu yapmak için, değişkeni ilk kez ilan ettiğinizde static anahtar sözcüğünü kullanın.
