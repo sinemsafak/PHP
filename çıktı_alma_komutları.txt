@@ -1,0 +1,6 @@
+ÇIKTI ALMA KOMUTLARI
+PHP'de çıktı almanın iki temel yolu vardır: echo and print.
+
+Echo statement parantez içinde veya olmadan kullanılabilir: echo veya echo ()
+
+Print statement parantez ile veya parantez olmadan kullanılabilir: print veya print ()
