@@ -1,0 +1,55 @@
+VERİ TÜRLERİ
+
+- Değişkenler farklı türlerdeki verileri depolayabilir:
+
+- String
+
+- Integer
+
+- Float (floating point numbers - also called double)
+
+- Boolean
+
+- Array
+
+- Object
+
+- NULL
+
+* Bir string, "Merhaba dünya!" gibi bir karakter dizisidir.
+
+*Bir string tırnak içinde herhangi bir metin olabilir. Tek veya çift tırnak kullanabilirsiniz.
+
+- Sayısal ve Diğer Veri Türleri
+
+* Bir tamsayı veri türü -2,147,483,648 ve 2,147,483,647 arasında ondalık olmayan bir sayıdır.
+
+* Tamsayılar için kurallar:
+
+* Bir tamsayı en az bir rakam içermelidir
+
+* Bir tamsayı ondalık basamağa sahip olmamalıdır
+
+* Bir tam sayı pozitif veya negatif olabilir
+
+* Tamsayılar üç biçimde belirtilebilir:
+
+* Ondalık (10 tabanlı)
+
+* Onaltılık (16 tabanlı - 0 ile ön eklenmiş)
+
+* Sekizli (8 tabanlı - 0 ile ön eklenmiş)
+
+* Bir float (kayan nokta sayısı) ondalıklı basamaklı bir sayı veya üstel formda bir sayıdır.
+
+* Bir Boolean iki olası durumu temsil eder: TRUE or FALSE
+
+* Bir array, tek bir değişkende birden fazla değer saklar.
+
+* Nesne, verilerin işlenmesiyle ilgili verileri ve bilgileri depolayan bir veri türüdür. PHP’de, bir nesnenin açıkça bildirilmesi gerekir.
+
+* Null, yalnızca bir değere sahip olabilen özel bir veri türüdür.
+
+* NULL veri tipi değişkeni, kendisine atanmış değeri olmayan bir değişkendir.
+
+* Bir değişken değer olmadan oluşturulursa, otomatik olarak NULL değerine atanır.
