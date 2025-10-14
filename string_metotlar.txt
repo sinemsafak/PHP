@@ -1,0 +1,49 @@
+STİRNG METOTLAR 1
+
+*strlen() – Bir string’in uzunluğunu (karakter sayısını) döndürür.
+
+*str_word_count() – Bir string’deki kelime sayısını döndürür.
+
+*strrev() – Bir string’i ters çevirir.
+
+*strpos() – Bir string içinde belirli bir karakterin veya kelimenin ilk geçtiği konumu döndürür.
+
+*str_replace() – Bir string içinde belirli karakterleri veya kelimeleri başka bir şeyle değiştirir.
+
+*addslashes() – Bir string’deki özel karakterlerin (tırnak işaretleri, ters slash vb.) önüne ters slash ekler.
+
+*bin2hex() – Bir string’i ikilik (binary) formdan onaltılık (hexadecimal) formata çevirir.
+
+*chop() – Bir string’in sonundaki boşlukları veya belirtilen karakterleri siler.
+
+*chr() – ASCII koduna karşılık gelen karakteri döndürür.
+
+*chunk_split() – Bir string’i belirli uzunlukta parçalara ayırır ve her parçanın sonuna belirtilen bir ayırıcı ekler.
+
+*convert_uuencode() – Bir string’i uuencode formatına dönüştürür (ikili veriyi metin formatına çevirir).
+
+*convert_uudecode() – uuencode ile kodlanmış bir string’i orijinal haline (çözümlenmiş biçime) geri dönüştürür.
+
+*crc32() – Bir string için 32-bit CRC (Cyclic Redundancy Check) değerini döndürür; genellikle veri bütünlüğü kontrolü için kullanılır.
+
+*crypt() – Bir string’i tek yönlü olarak şifreler; genellikle parola saklama işlemlerinde kullanılır.
+
+*echo() – Ekrana çıktı (metin veya değişken değeri) yazdırmak için kullanılır.
+
+*explode() – Bir string’i belirli bir ayırıcıya göre parçalayarak bir diziye (array) dönüştürür.
+
+*get_html_translation_table() – HTML karakterlerinin dönüştürme tablosunu döndürür. Bu tablo, htmlspecialchars() ve htmlentities() gibi fonksiyonlarda hangi karakterlerin nasıl dönüştürüldüğünü gösterir.
+
+*hebrev() – Mantıksal İbranice metni görsel metne dönüştürür. (İbranice yazı yönü sağdan sola olduğu için metni görsel biçimde düzeltir.)
+
+*hebrevc() – İbranice metni sağdan sola akıştan soldan sağa akışa dönüştürür ve aynı zamanda satır sonlarını (\n) uygun biçimde işler.
+
+*html_entity_decode() – HTML varlıklarını (örneğin &lt;, &gt;, &amp;) orijinal karakterlerine geri dönüştürür.
+
+*htmlentities() – HTML’de özel anlamı olan karakterleri (<, >, &, ", ' gibi) HTML varlıklarına dönüştürür. (örneğin < → &lt;)
+
+*htmlspecialchars_decode() – htmlspecialchars() fonksiyonunun tersidir; HTML özel karakterlerini tekrar normal hâline getirir.
+
+*htmlspecialchars() – HTML’de özel anlamı olan karakterleri dönüştürür, böylece kullanıcıdan gelen veriler HTML’de güvenli biçimde görüntülenebilir. (örneğin > → &gt;)
+
+*implode() – Bir dizi (array) elemanlarını belirli bir ayırıcıyla birleştirip tek bir string haline getirir (explode’un tersidir).
