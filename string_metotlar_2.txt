@@ -1,0 +1,88 @@
+join() / implode(): Bir dizi elemanını belirtilen ayraçla birleştirip tek bir metin döndürür.
+
+lcfirst(): Metnin ilk harfini küçük harfe çevirir (diğerleri değişmez).
+
+ucfirst(): Metnin ilk harfini büyük harfe çevirir (diğerleri değişmez).
+
+ucwords(): Metindeki her kelimenin ilk harfini büyük yapar.
+
+strtoupper(): Metindeki tüm harfleri büyük harfe çevirir.
+
+strtolower(): Metindeki tüm harfleri küçük harfe çevirir.
+
+ltrim(): Metnin SOLUNDAN baştaki belirtilen karakterleri (varsayılan boşluk/kaçışlar) kırpar.
+
+md5(): Verinin MD5 özetini (32 heksadesimal karakter) üretir.
+
+md5_file(): Bir dosyanın içeriğinin MD5 özetini üretir.
+
+money_format(): Yerel para biçiminde sayıyı biçimler (Windows’ta çalışmaz; PHP 8+’da kaldırılmıştır).
+
+nl_langinfo(): Geçerli yerel ayar hakkında bilgi verir (Windows’ta yok).
+
+nl2br(): Metindeki \n satır sonlarını HTML <br> etiketlerine çevirir.
+
+number_format(): Sayıyı binlik ayırıcılar ve belirlenen ondalık sayısı ile biçimler.
+
+ord(): Tek bir karakterin ASCII/byte değerini döndürür.
+
+parse_str(): Sorgu dizgesini anahtar–değer çiftlerine ayrıştırır (genelde bir diziye).
+
+print(): Bir metni çıktılayıp 1 döndürür (dahili dil yapısı).
+
+printf(): Biçimlendirme şablonuna göre çıktılar (ekrana yazar).
+
+sprintf(): Biçimlendirme şablonuna göre metin üretir (ekrana yazmaz, string döndürür).
+
+quotemeta(): Düzenli ifadede özel anlamı olan karakterleri ters bölüyle kaçışlar.
+
+sha1(): Verinin SHA-1 özetini (40 heksadesimal karakter) üretir.
+
+sha1_file(): Bir dosyanın içeriğinin SHA-1 özetini üretir.
+
+similar_text(): İki metin arasındaki ortak karakter sayısını ve benzerlik yüzdesini hesaplar.
+
+soundex(): Kelimenin telaffuzunu temsil eden Soundex kodunu döndürür (İngilizce odaklı).
+
+sscanf(): Bir metni biçim şablonuna göre parçalayarak değişkenlere atar.
+
+str_ireplace(): Metinde büyük/küçük harf duyarsız dizge değiştirme yapar.
+
+str_pad(): Metni istenen uzunluğa kadar belirli bir doldurma ile sağa/sola/iki yana tamamlar.
+
+
+str_repeat(): Bir dizgeyi belirtilen sayıda ardışık tekrar ederek yeni bir dizge döndürür.
+
+str_rot13(): Latin alfabesindeki harfleri ROT13 şifrelemesiyle 13 harf kaydırır; aynı işlemi iki kez yapmak orijinali verir.
+
+str_shuffle(): Dizgedeki karakterlerin sırasını rastgele karıştırır.
+
+str_split(): Dizgeyi belirtilen uzunluklarda parçalara ayırarak bir dizi döndürür.
+
+strcasecmp(): İki dizgeyi büyük/küçük harf duyarsız olarak karşılaştırır; sonuç 0 eşit, <0 küçük, >0 büyük.
+
+strcmp(): İki dizgeyi büyük/küçük harf duyarlı olarak karşılaştırır; sonuç 0 eşit, <0 küçük, >0 büyük.
+
+strcspn(): Bir dizgede, belirtilen karakter kümesinden hiçbiriyle karşılaşılmayan en baştaki kesitin uzunluğunu verir.
+
+strip_tags(): Bir dizgeden HTML ve PHP etiketlerini kaldırır (istenirse izinli liste bırakılabilir).
+
+stripslashes(): Ters bölü ile kaçışlanmış karakterlerin ters bölülerini kaldırır.
+
+stripos(): Alt dizgenin ilk geçtiği konumu harf duyarsız olarak verir; bulunamazsa false.
+
+strpos(): Alt dizgenin ilk geçtiği konumu harf duyarlı olarak verir; bulunamazsa false.
+
+strrpos(): Alt dizgenin son geçtiği konumu harf duyarlı olarak verir; bulunamazsa false.
+
+strstr(): Bir dizgede ilk eşleşmeden itibaren olan kısmı döndürür (harf duyarlı).
+
+stristr(): strstr() ile aynı mantıkla çalışır fakat harf duyarsızdır.
+
+strpbrk(): Belirtilen karakter kümesinden herhangi birinin ilk görüldüğü yerden itibaren kalan kısmı döndürür.
+
+strtr(): Karakter/alt dizge eşlemesi yaparak çeviri veya çoklu değiştirme uygular.
+
+substr(): Bir dizgenin belirtilen konum ve uzunluktaki bölümünü döndürür (negatif değerler sondan sayar).
+
+substr_compare(): İki dizgenin belirli konumdaki bölümünü karşılaştırır; isteğe bağlı uzunluk ve harf-duyarsızlık parametreleri vardır.
