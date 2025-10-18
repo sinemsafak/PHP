@@ -1,0 +1,82 @@
+PHP NUMBERS
+
+Bu bölümde tamsayılar, ondalıklı sayılar ve sayısal metinlerle derinlemesine bakacağız.
+
+PHP ile ilgili dikkat edilmesi gereken bir nokta, otomatik veri türü dönüşümü sağlamasıdır.
+
+Dolayısıyla, bir değişkene bir tamsayı değeri atarsanız, o değişkenin türü otomatik olarak bir tam sayı olacaktır. Daha sonra, aynı değişkene bir string atarsanız, tür bir stringe dönüşür.
+
+Bu otomatik dönüştürme bazen kodunuzu bozabilir.
+
+
+
+PHP INTEGERS
+
+Bir tamsayı veri türü, -2147483648 ile 2147483647 arasında ondalık olmayan bir sayıdır. Bundan daha büyük (veya daha düşük) bir değer, bir tamsayı sınırını aştığı için kayan nokta olarak depolanacaktır.
+
+Bir tamsayı en az bir rakam içermelidir.
+
+Bir tamsayı, ondalık noktaya sahip olmamalıdır.
+
+Bir tam sayı pozitif veya negatif olabilir.
+
+Tam sayılar üç biçimde belirtilebilir: ondalık (10 tabanlı), sekizlik ve onaltılık.
+
+PHP, bir değişkenin türünün tamsayı olup olmadığını kontrol etmek için aşağıdaki metodlara sahiptir:
+
+is_int()
+
+is_integer() → is_int()’in takma adıdır.
+
+is_long() → is_int() metodunun takma adıdır.
+
+
+PHP FLOATS
+
+Float ondalıklı veya üstel sayılardır.
+
+2.0, 256.4, 10.358, 7.64E+5, 5.56E-5’in tümü floattır.
+
+Float veri türü genellikle 1.7976931348623E+308’e kadar (platforma bağlı) bir değer depolayabilir ve maksimum 14 basamaklı bir hassasiyete sahiptir.
+
+PHP, bir değişkenin türünün float olup olmadığını kontrol etmek için aşağıdaki metodlara sahiptir:
+
+is_float()
+
+is_double() → is_float()’ın takma adıdır.
+
+
+
+PHP INFINITY
+
+PHP_FLOAT_MAX’tan daha büyük bir sayısal değer sonsuz olarak kabul edilir.
+
+PHP, sayısal bir değerin sonlu mu yoksa sonsuz mu olduğunu kontrol etmek için aşağıdaki metodlara sahiptir:
+
+is_finite()
+
+is_infinite()
+
+
+PHP NAN
+
+NaN, "not a number" (sayı değil) anlamına gelir.
+
+NaN, imkansız matematiksel işlemler için kullanılır.
+
+PHP, bir değerin sayı olup olmadığını kontrol etmek için aşağıdaki fonksiyona sahiptir:
+
+is_nan()
+
+
+
+PHP NUMERICAL STRINGS
+
+PHP is_numeric() metodu, bir değişkenin sayısal olup olmadığını bulmak için kullanılabilir.
+Değişken bir sayı veya sayısal bir stringse metod true, aksi takdirde false döndürür.
+
+Not: PHP 7.0’dan itibaren is_numeric() metodu artık onaltılık biçimdeki sayısal stringler için (ör. 0xf4c3b00c) false döndürür.
+
+
+
+
