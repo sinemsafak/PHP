@@ -1,0 +1,146 @@
+abs()
+Bir sayının mutlak değerini döndürür.
+
+acos()
+Bir sayının arkkosinüsünü (inverse cosine) radyan cinsinden döndürür.
+
+acosh()
+Bir sayının ters hiperbolik kosinüsünü hesaplar.
+
+asin()
+Bir sayının arksinüsünü (inverse sine) radyan cinsinden döndürür.
+
+asinh()
+Bir sayının ters hiperbolik sinüsünü hesaplar.
+
+atan()
+Bir sayının arktanjantını (inverse tangent) hesaplar.
+
+atan2()
+İki sayıdan (y ve x) arktanjant açı değeri hesaplar.
+
+atanh()
+Bir sayının ters hiperbolik tanjantını hesaplar.
+
+base_convert()
+Bir sayıyı bir tabandan başka bir tabana dönüştürür.
+
+bindec()
+İkilik (binary) sayıyı onluk (decimal) sayıya çevirir.
+
+ceil()
+Bir sayıyı yukarı yuvarlar.
+
+cos()
+Bir sayının kosinüsünü hesaplar.
+
+cosh()
+Bir sayının hiperbolik kosinüsünü hesaplar.
+
+decbin()
+Onluk sayıyı ikilik sayıya dönüştürür.
+
+dechex()
+Onluk sayıyı hexadecimal (on altılık) sayıya dönüştürür.
+
+decoct()
+Onluk sayıyı sekizlik (octal) sayıya dönüştürür.
+
+deg2rad()
+Dereceyi radyana çevirir.
+
+exp()
+e tabanının belirtilen kuvvetini hesaplar (e^x).
+
+expm1()
+e^x − 1 işlemini yüksek hassasiyetle hesaplar.
+
+floor()
+Bir sayıyı aşağı yuvarlar.
+
+fmod()
+Ondalıklı mod işlemi yapar (kalanı verir).
+
+getrandmax()
+rand() fonksiyonunun döndürebileceği maksimum değeri verir.
+
+hexdec()
+Hexadecimal sayıyı onluk sayıya çevirir.
+
+hypot()
+Hipotenüs hesaplar (√(x² + y²)).
+
+intdiv()
+Tamsayı bölme işlemi yapar, bölümün tam sayı kısmını döndürür.
+
+is_finite()
+Bir değerin sonlu olup olmadığını kontrol eder.
+
+is_infinite()
+Bir değerin sonsuz olup olmadığını kontrol eder.
+
+is_nan()
+Bir değerin matematiksel olarak tanımsız (NaN) olup olmadığını kontrol eder.
+
+lcg_value()
+0 ile 1 arasında rastgele ondalıklı bir sayı üretir.
+
+log()
+Doğal logaritma (e tabanı) hesaplar.
+
+log10()
+10 tabanında logaritma hesaplar.
+
+log1p()
+log(1 + x) işlemini yüksek hassasiyetle yapar.
+
+max()
+Verilen değerler arasında en büyüğünü döndürür.
+
+min()
+Verilen değerler arasında en küçüğünü döndürür.
+
+mt_getrandmax()
+mt_rand() fonksiyonunun üretebileceği maksimum değeri verir.
+
+mt_rand()
+Mersenne Twister algoritması ile rastgele sayı üretir.
+
+mt_srand()
+mt_rand() fonksiyonunu belirli bir başlangıç değeriyle (seed) başlatır.
+
+octdec()
+Sekizlik (octal) sayıyı onluk sayıya çevirir.
+
+pi()
+Pi sabitini döndürür.
+
+pow()
+Üs alma işlemi yapar (a^b).
+
+rad2deg()
+Radyanı dereceye çevirir.
+
+rand()
+Rastgele bir tamsayı üretir.
+
+round()
+Bir sayıyı en yakın tam sayıya yuvarlar.
+
+sin()
+Bir sayının sinüsünü hesaplar.
+
+sinh()
+Bir sayının hiperbolik sinüsünü hesaplar.
+
+sqrt()
+Bir sayının karekökünü hesaplar.
+
+srand()
+rand() fonksiyonu için başlangıç değeri (seed) atar.
+
+tan()
+Bir sayının tanjantını hesaplar.
+
+tanh()
+Bir sayının hiperbolik tanjantını hesaplar.
