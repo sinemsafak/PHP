@@ -1,0 +1,26 @@
+PHP CONSTANTS
+
+
+Constantlar (sabitler), bir kez tanımlandıklarında değiştirilemez veya tanımsız olamamalari dışında değişkenler gibidirler
+
+
+Constant, basit bir değer için bir tanımlayıcıdır. Değer, script boyunca değiştirilemez
+
+
+Geçerli bir sabit isim bir harf veya alt çizgi ile başlar (constant’tan önce $ işareti yoktur)
+
+
+Değişkenlerin aksine, sabitler tüm komut dosyası boyunca otomatik olarak globaldir
+
+
+Constant oluşturmak için define() fonksiyonunu kullanın
+
+
+define(name, value, case-insensitive)
+
+
+PHP7’de define() fonksiyonunu kullanarak bir Array sabiti oluşturabilirsiniz
+
+
+Constantlar otomatik olarak globaldir ve tüm komut dosyası boyunca kullanılabilir
+
