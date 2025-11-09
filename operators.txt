@@ -1,0 +1,60 @@
+1) Arithmetic Operators (Aritmetik Operatörler)
+
+Bu grup, sayılar üzerinde matematiksel işlemler yapmak için kullanılır.
+Toplama, çıkarma, çarpma, bölme, mod alma ve üs alma gibi temel işlem operatörleridir.
+
+Kullanım amacı: Matematiksel hesaplamalar yapmak.
+
+2) Assignment Operators (Atama Operatörleri)
+
+Bir değişkene değer atamak veya mevcut değerini değiştirmek için kullanılır.
+Temel atama = ile yapılır; diğerleri mevcut değeri arttırarak, azaltarak, çarparak veya bölererk günceller.
+
+Kullanım amacı: Bir değişkenin değerini belirlemek veya güncellemek.
+
+3) Comparison Operators (Karşılaştırma Operatörleri)
+
+İki değer arasında karşılaştırma yapar ve her zaman true veya false döndürür.
+Eşit mi, büyük mü, küçük mü, farklı mı gibi mantıksal karşılaştırmaları kontrol eder.
+
+Kullanım amacı: Koşul ifadelerinde iki değerin ilişkisini test etmek.
+
+4) Increment/Decrement Operators (Artırma/Azaltma Operatörleri)
+
+Bir değişkenin değerini bir artıran veya bir azaltan operatörlerdir.
+Genellikle döngülerde çok kullanılır.
+
+Kullanım amacı: Bir sayıyı kolayca +1 veya -1 yapmak.
+
+5) Logical Operators (Mantıksal Operatörler)
+
+Koşulları birleştirmek için kullanılır.
+Mantıksal “ve”, “veya”, “değil” işlemlerini yapar.
+
+Kullanım amacı: Birden fazla koşulun sonucunu değerlendirmek.
+
+6) String Operators (Metin Operatörleri)
+
+Metinler (string) üzerinde işlem yapmak için kullanılır.
+Genellikle metin birleştirme işlemleri yapılır.
+
+Kullanım amacı: Yazı parçalarını birleştirmek veya genişletmek.
+
+7) Array Operators (Dizi Operatörleri)
+
+İki diziyi birleştirir, karşılaştırır veya aralarındaki farkları bulmak için kullanılır.
+Diziler üzerinde yapısal mantık testleri yapılır.
+
+Kullanım amacı: Diziler arası fark, eşitlik veya birleşim işlemleri yapmak.
+
+8) Conditional Assignment Operators (Koşullu Atama Operatörleri)
+
+Bir koşula göre değer döndüren operatörlerdir.
+Genellikle kısa if/else gibi davranırlar.
+En bilinenleri:
+
+Ternary operatör (? :)
+
+Null coalescing operatörü (??)
+
+Kullanım amacı: Bir koşula bağlı olarak değişkene uygun değeri atamak.
