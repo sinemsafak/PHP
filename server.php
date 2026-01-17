@@ -3,7 +3,6 @@
  $_SERVER dizisi, sunucu, istek ve istemci (kullanıcı)
  hakkında otomatik üretilen bilgileri tutar.
 */
-
 /* Çalışan dosyanın URL'e göre yolunu verir */
 $phpSelf = $_SERVER['PHP_SELF'];
 
@@ -125,3 +124,4 @@ $scriptUri = $_SERVER['SCRIPT_URI'] ?? 'Desteklenmiyor';
 
 </body>
 </html>
+
